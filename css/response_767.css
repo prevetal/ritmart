@@ -1,0 +1,530 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .content_flex .content
+    {
+        padding: 40px 20px;
+
+        gap: 60px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -16px;
+    }
+
+    .swiper-button-next
+    {
+        right: -16px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        gap: 15px;
+    }
+
+
+    .tabs .btn
+    {
+        padding: 11px 19px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .data
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        padding: 16px 0;
+    }
+
+
+    .mob_header .logo
+    {
+        font-size: 10px;
+    }
+
+
+    .mob_header .logo img
+    {
+        width: 192px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block img
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*---------------
+        Viewer 3D
+    ---------------*/
+    .viewer_3d .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .list > *
+    {
+        padding-bottom: 19px;
+    }
+
+
+    .products .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .products .product
+    {
+        gap: 10px;
+    }
+
+
+    .products .product .name,
+    .products .product .desc
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .products .product .buy_btn
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .row
+    {
+        margin-left: 0;
+    }
+
+
+    .videos .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .videos .swiper-slide
+    {
+        visibility: visible;
+
+        width: 280px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+
+    .action_form .form .line
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+
+    .action_form .form .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map
+    {
+        height: 320px;
+    }
+
+
+    .contacts_info .data
+    {
+        padding: 40px 20px;
+    }
+
+
+    .contacts_info .item
+    {
+        width: calc(50% - 10px);
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .item
+    {
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+    .history .item .year
+    {
+        font-size: 28px;
+
+        width: 100%;
+    }
+
+
+    .history .item .text_block
+    {
+        width: 100%;
+        padding-top: 22px;
+        padding-left: 0;
+
+        border: none;
+        border-top: 2px solid #c22929;
+    }
+
+
+    .history .item .text_block:before
+    {
+        top: -7px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        margin: 0 auto;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .articles .article .name
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Become dealer
+    -------------------*/
+    .become_dealer .list
+    {
+        margin-top: 20px;
+
+        gap: 20px;
+    }
+
+
+    .become_dealer .item
+    {
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+    .become_dealer .item .icon
+    {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+
+    .become_dealer .item .icon + *
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-left: -20px;
+    }
+
+
+    .catalog .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------------
+        Payment/Delivery
+    ----------------------*/
+    .payment_delivery .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+
+    /*-------------
+        How buy
+    -------------*/
+    .how_buy .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+    .how_buy .list
+    {
+        gap: 20px;
+    }
+
+
+    .how_buy .item
+    {
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+
+    .how_buy .item .number
+    {
+        font-size: 88px;
+        line-height: 100px;
+
+        height: 100px;
+        margin: 0 auto;
+    }
+
+
+    .how_buy .item .number + *
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Instructions
+    ------------------*/
+    .instructions .list
+    {
+        gap: 20px;
+    }
+
+
+    .instructions .item
+    {
+        padding-bottom: 19px;
+    }
+
+
+    .instructions .item .thumb
+    {
+        width: 180px;
+        height: 100px;
+    }
+
+
+    .instructions .item .info
+    {
+        width: calc(100% - 200px);
+    }
+
+
+
+    /*---------------------------
+        Requirements premises
+    ---------------------------*/
+    .requirements_premises .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        gap: 40px 20px;
+    }
+
+
+    footer .col
+    {
+        margin-bottom: 0;
+    }
+
+
+
+    footer .logo
+    {
+        font-size: 10px;
+    }
+
+
+    footer .logo img
+    {
+        width: 192px;
+    }
+
+
+
+    footer .contacts
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        width: 100%;
+    }
+
+
+
+    footer .links
+    {
+        width: calc(50% - 10px);
+    }
+}

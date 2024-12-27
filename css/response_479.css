@@ -1,0 +1,123 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 24px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .name,
+    .products .product .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        padding: 48px 20px 32px;
+    }
+
+
+    .advantages .item:before
+    {
+        font-size: 200px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .form .line
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    /*------------------
+        Instructions
+    ------------------*/
+    .instructions .item .thumb
+    {
+        width: 100%;
+        height: 140px;
+        margin-bottom: 12px;
+    }
+
+
+    .instructions .item .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: 100%;
+    }
+}

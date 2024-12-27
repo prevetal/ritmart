@@ -1,0 +1,886 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 260px;
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 12px);
+        padding: 40px 24px;
+
+        gap: 68px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        gap: 20px;
+    }
+
+
+    .tabs .btn
+    {
+        padding: 11px 23px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item
+    {
+        padding-bottom: 19px;
+    }
+
+
+    .accordion_item + .accordion_item
+    {
+        margin-top: 20px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding: 15px 0 15px 32px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 4px 20px 4px 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .top
+    {
+        padding: 24px 0;
+    }
+
+
+    header .bottom
+    {
+        padding: 12px 0;
+    }
+
+
+
+    header .logo
+    {
+        font-size: 12px;
+    }
+
+
+    header .logo img
+    {
+        width: 232px;
+    }
+
+
+
+    header .work_time .val
+    {
+        margin-top: 12px;
+    }
+
+
+
+    header .location .label
+    {
+        line-height: 17px;
+    }
+
+
+    header .location .val
+    {
+        margin-top: 12px;
+    }
+
+
+
+    header .phones
+    {
+        font-size: 18px;
+
+        margin-left: 24px;
+
+        gap: 16px;
+    }
+
+
+
+    header .menu
+    {
+        width: calc(100% - 224px);
+    }
+
+
+    header .menu a
+    {
+        height: 56px;
+        padding: 12px 24px;
+    }
+
+
+
+    header .callback_btn
+    {
+        font-size: 16px;
+
+        width: 200px;
+        height: 56px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .links
+    {
+        padding: 24px 12px;
+    }
+
+
+    aside .links > * > a
+    {
+        padding: 20px 0;
+    }
+
+
+    aside .links .sub
+    {
+        padding-bottom: 16px;
+    }
+
+
+    aside .links .sub > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    aside .links .sub2
+    {
+        padding: 12px 20px 4px 12px;
+    }
+
+
+    aside .links .sub2 a
+    {
+        padding: 4px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .all_link
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .block_head .desc
+    {
+        font-size: var(--font_size);
+
+        width: 440px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 48px;
+        padding: 0 19px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+
+
+    /*---------------
+        Viewer 3D
+    ---------------*/
+    .viewer_3d .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .list > *
+    {
+        padding-bottom: 11px;
+    }
+
+
+    .products .list > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .products .product
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .products .product .name
+    {
+        width: 220px;
+    }
+
+
+    .products .product .desc
+    {
+        width: calc(100% - 384px);
+    }
+
+
+    .products .product .buy_btn
+    {
+        width: 124px;
+        height: 44px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .videos .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .videos .video .thumb
+    {
+        width: 240px;
+        max-width: 100%;
+    }
+
+
+    .videos .video .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .link
+    {
+        font-size: var(--font_size);
+
+        margin-top: 28px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 32px 12px 24px;
+
+        gap: 12px;
+    }
+
+
+    .advantages .item:before
+    {
+        font-size: 168px;
+
+        top: -28px;
+    }
+
+
+    .advantages .item .icon
+    {
+        height: 64px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .advantages .item .desc
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 40px 24px;
+    }
+
+
+    .action_form .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+    .action_form .form .line
+    {
+        width: calc((100% - 164px) / 2);
+    }
+
+
+    .action_form .form .submit
+    {
+        width: 140px;
+    }
+
+
+    .action_form .form .agree
+    {
+        padding-top: 12px;
+    }
+
+
+
+    /*-----------------
+        Clients map
+    -----------------*/
+    .clients_map .block_head
+    {
+        margin-bottom: 24px;
+
+        gap: 20px;
+    }
+
+
+    .clients_map .map
+    {
+        height: 400px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .exp
+    {
+        font-size: var(--font_size);
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map
+    {
+        height: 400px;
+    }
+
+
+    .contacts_info .data
+    {
+        padding: 40px 24px;
+    }
+
+
+    .contacts_info .item
+    {
+        gap: 16px;
+    }
+
+
+    .contacts_info .label
+    {
+        gap: 12px;
+    }
+
+
+    .contacts_info .label .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------
+        History
+    -------------*/
+    .history .list
+    {
+        gap: 20px;
+    }
+
+
+    .history .item
+    {
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .history .item .year
+    {
+        font-size: 30px;
+
+        width: 124px;
+    }
+
+
+    .history .item .text_block
+    {
+        width: calc(100% - 148px);
+        padding-left: 26px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .articles .article .name
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------------
+        Become dealer
+    -------------------*/
+    .become_dealer .list
+    {
+        margin-top: 24px;
+
+        gap: 24px;
+    }
+
+
+    .become_dealer .item
+    {
+        padding: 24px;
+    }
+
+
+    .become_dealer .item .icon
+    {
+        width: 92px;
+        height: 92px;
+    }
+
+
+    .become_dealer .item .icon + *
+    {
+        width: calc(100% - 116px);
+
+        gap: 16px;
+    }
+
+
+    .become_dealer .item .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+
+    .catalog .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .catalog .category
+    {
+        gap: 8px;
+    }
+
+
+    .catalog .category .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------------
+        Payment/Delivery
+    ----------------------*/
+    .payment_delivery .block_head
+    {
+        margin-bottom: 28px;
+
+        gap: 24px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .block_head
+    {
+        margin-bottom: 28px;
+
+        gap: 24px;
+    }
+
+
+
+    /*-------------
+        How buy
+    -------------*/
+    .how_buy .block_head
+    {
+        margin-bottom: 28px;
+
+        gap: 24px;
+    }
+
+
+    .how_buy .list
+    {
+        gap: 24px;
+    }
+
+
+    .how_buy .item
+    {
+        padding: 24px;
+    }
+
+
+    .how_buy .item .number
+    {
+        font-size: 100px;
+        line-height: 120px;
+
+        width: 140px;
+        height: 120px;
+    }
+
+
+    .how_buy .item .number + *
+    {
+        width: calc(100% - 164px);
+
+        gap: 12px;
+    }
+
+
+    .how_buy .item .desc
+    {
+        min-height: 0;
+    }
+
+
+
+    /*------------------
+        Instructions
+    ------------------*/
+    .instructions .list
+    {
+        padding-top: 0;
+
+        gap: 24px;
+    }
+
+
+    .instructions .item
+    {
+        padding-bottom: 23px;
+    }
+
+
+    .instructions .item .thumb
+    {
+        width: 220px;
+        height: 112px;
+    }
+
+
+    .instructions .item .info
+    {
+        width: calc(100% - 244px);
+        margin-left: 0;
+
+        gap: 12px;
+    }
+
+
+    .instructions .item .download
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        gap: 12px;
+    }
+
+
+    .instructions .item .download .link
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*---------------------------
+        Requirements premises
+    ---------------------------*/
+    .requirements_premises .block_head
+    {
+        margin-bottom: 28px;
+
+        gap: 24px;
+    }
+
+
+
+    /*-------------------------
+        Service maintenance
+    -------------------------*/
+    .service_maintenance .paid_separately
+    {
+        margin-top: 40px;
+    }
+
+
+    .service_maintenance .paid_separately .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .service_maintenance .paid_separately .list > *
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+    footer .col
+    {
+        gap: 40px;
+    }
+
+
+
+    footer .logo
+    {
+        font-size: 12px;
+    }
+
+
+    footer .logo img
+    {
+        width: 232px;
+    }
+
+
+
+    footer .contacts
+    {
+        gap: 40px;
+    }
+
+
+    footer .contacts .phones,
+    footer .contacts .support
+    {
+        gap: 16px;
+    }
+
+
+    footer .contacts .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    footer .contacts .icon + *
+    {
+        gap: 8px;
+    }
+
+
+
+    footer .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    footer .links
+    {
+        gap: 40px;
+    }
+
+
+    footer .links .items
+    {
+        font-size: var(--font_size);
+
+        gap: 24px;
+    }
+}
